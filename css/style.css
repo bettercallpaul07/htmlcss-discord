@@ -190,6 +190,31 @@ a:link {
     line-height: 120%;
 }
 
+#cta {
+    min-height: 400px;
+    background-color: #f6f6f6;
+}
+
+
+.calltoaction {
+    min-height: 100px;
+    width: 60%;
+    background-image: url(../img/stars.svg);
+    color: black;
+    font-size:2em;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.centered-botton {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 footer {
     height: 800px;
@@ -250,6 +275,7 @@ footer {
 	font-size:15px;
 	text-decoration:none;
     color:white;
+    border: none;
 }
 
 .main-column-footer > h3 {
@@ -282,7 +308,6 @@ footer > hr {
     display: inline;
     padding-left: 7px;
     font-size: 1.2em;
-    vertical-align: center;
 }
 
 #language > img {
