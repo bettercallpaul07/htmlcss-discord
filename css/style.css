@@ -32,8 +32,60 @@
     display: flex;
     align-items:center;
     justify-content: center;
+    color:white;
 }
 
+a:link {
+    color: white;
+    margin-right: 30px;
+    font-size: 1.2em;
+    text-decoration: none; 
+  }
+  
+  a:visited {
+    color: white;
+  }
+
+  
+  .openDiscord {
+    background-color: black;
+
+}
+
+
+  .myButton {
+	background-color:#ffffff;
+	border-radius:20px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:black;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 24px;
+	text-decoration:none; }
+
+    .button-conteiner :first-child {
+        color: black;
+        background-color:#ffffff;
+        font-size:22px;
+        border: none;
+        margin: 50px;
+        border-radius:30px;
+
+    }
+
+    .button-conteiner :last-child {
+        background-color: black;
+        color: white;
+        font-size:22px;
+        border: none;
+        border-radius:30px;
+
+    }
+
+    .button-conteiner {
+        text-align: center;
+    }
 
 
 .login {
@@ -43,9 +95,7 @@
 }
 
 .logo, .navbar, .login {
-    border: 1px dashed black;
     min-height: 40px;
-    background-color: orange;
 }
 
 .container-flex {
@@ -57,12 +107,31 @@
 .primary-content {
     width: 60%;
     height: 80%;
-    background-color: pink;
+}
+
+.primary-content > h1 {
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+#primary-text {
+    padding: 50px;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+
+
 }
 
 
+
+
 .first-box {
-    background-image: url(../img/jumbo.png)
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .second-box, .fourth-box {
