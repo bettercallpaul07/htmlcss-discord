@@ -10,7 +10,7 @@
 .header-container {
     min-height: 100px;
     padding: 30px 150px;
-    background-color: lightblue;
+    background-color: #255ee9;
     display: flex;
 }
 
@@ -52,19 +52,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dashed black;
 }
 
 .primary-content {
     width: 60%;
     height: 80%;
     background-color: pink;
-    border: 1px dashed black;
 }
 
 
 .first-box {
-    background-color: darkblue;
+    background-image: url(../img/jumbo.png)
 }
 
 .second-box, .fourth-box {
